@@ -97,7 +97,7 @@ int main() {
 		cout << "Looping ... " << endl;
 	} */
 
-	const string password = "hello";
+	/*const string password = "hello";
 	string input;
 
 	do {
@@ -111,11 +111,25 @@ int main() {
 		}
 	} while (input != password);
 
-	cout << "Access granted." << endl;
+	cout << "Access granted." << endl;*/
 
+	int value = 5;
 
-
-
+	switch (value)
+	{
+	case 4:
+		cout << "Value is 4." << endl;
+		break;
+	case 5:
+		cout << "Value is 5." << endl;
+		break;
+	case 6:
+		cout << "Value is 6." << endl;
+		break;
+	default:
+		cout << "Unrecognized Value." << endl;
+		break;
+	}
 
 
 	cout << "Program quitting ..." << endl;
