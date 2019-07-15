@@ -82,25 +82,43 @@ int main() {
 		cout << "Condition 3: false" << endl;
 	}*/
 
-	int i = 0;
+	/*int i = 0;
 
 	while (i < 5) {
 		cout << "Hello!" << endl;
 		i++;
 	}
 
-	for (int j = 0; j < 10; j++) {
-		cout << "Hello " << j << endl;
-	}
+	for (int j = 0; j < 5; j++) {
+		cout << "i is: " << j << endl;
+		if (j == 3) {
+			continue;
+		}
+		cout << "Looping ... " << endl;
+	} */
+
+	const string password = "hello";
+	string input;
+
+	do {
+		cout << "Enter your password > " << flush;
+		cin >> input;
+		if (input == password) {
+			break;
+		}
+		else {
+			cout << "Access denied." << endl;
+		}
+	} while (input != password);
+
+	cout << "Access granted." << endl;
 
 
 
 
 
 
-
-
-
+	cout << "Program quitting ..." << endl;
 
 	return 0;
 }
