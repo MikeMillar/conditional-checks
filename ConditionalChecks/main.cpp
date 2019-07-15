@@ -28,11 +28,23 @@ int main() {
 	int value;
 	cin >> value;
 
-	if (value < 3) {
-		cout << "Insufficient privileges to use this menu option." << endl;
+	if (value == 1) {
+		cout << "Adding new record ..." << endl;
+	}
+	else if (value == 2) {
+		cout << "Deleting record ..." << endl;
+	}
+	else if (value == 3) {
+		cout << "Viewing record ..." << endl;
+	}
+	else if (value == 4) {
+		cout << "Searching for record ..." << endl;
+	}
+	else if (value == 5) {
+		cout << "Program quitting ..." << endl;
 	}
 	else {
-		cout << "Privilege level sufficient." << endl;
+		cout << "Invalid selection.";
 	}
 
 	return 0;
