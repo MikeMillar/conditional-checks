@@ -18,7 +18,7 @@ int main() {
 		cout << "Access denied." << endl;
 	}*/
 
-	cout << "1.\tAdd new record." << endl;
+	/*cout << "1.\tAdd new record." << endl;
 	cout << "2.\tDelete record." << endl;
 	cout << "3.\tView record." << endl;
 	cout << "4.\tSearch record." << endl;
@@ -45,7 +45,52 @@ int main() {
 	}
 	else {
 		cout << "Invalid selection.";
+	}*/
+
+	/*
+	== equality test
+	!= not equal
+	< less than
+	> greater than
+	<= less than or equal
+	>= greater than or equal
+	&& and operator
+	|| or operator
+	*/
+
+	int value1 = 7;
+	int value2 = 4;
+
+	if (value1 < 8) {
+		cout << "Condition 1: true" << endl;
 	}
+	else {
+		cout << "Condition 1: false" << endl;
+	}
+
+	if (value1 == 7 && value2 == 4) {
+		cout << "Condition 2: true" << endl;
+	}
+	else {
+		cout << "Condition 2: false" << endl;
+	}
+
+	if (value1 == 7 || value2 == 4) {
+		cout << "Condition 3: true" << endl;
+	}
+	else {
+		cout << "Condition 3: false" << endl;
+	}
+
+
+
+
+
+
+
+
+
+
 
 	return 0;
 }
