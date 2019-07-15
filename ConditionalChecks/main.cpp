@@ -58,7 +58,7 @@ int main() {
 	|| or operator
 	*/
 
-	int value1 = 7;
+	/*int value1 = 7;
 	int value2 = 4;
 
 	if (value1 < 8) {
@@ -80,8 +80,18 @@ int main() {
 	}
 	else {
 		cout << "Condition 3: false" << endl;
+	}*/
+
+	int i = 0;
+
+	while (i < 5) {
+		cout << "Hello!" << endl;
+		i++;
 	}
 
+	for (int j = 0; j < 10; j++) {
+		cout << "Hello " << j << endl;
+	}
 
 
 
